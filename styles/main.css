@@ -1,8 +1,8 @@
 body {
   font-family: ProximaNovaRegular, 'helvetica neue', helvetica, arial, sans-serif;
-}
-body .comments-block {
   width: 625px;
+  margin-left: auto;
+  margin-right: auto;
 }
 body .title-block {
   margin-bottom: 10px;
@@ -71,6 +71,7 @@ a.article-title {
 .icon {
   padding-left: 15px;
   padding-right: 1px;
+  margin-right: 2px;
 }
 .icon.loves {
   background: url("../assets/love_small.png") center 0px no-repeat;
@@ -83,4 +84,11 @@ a.article-title {
   width: 25px;
   height: 25px;
   padding: 0;
+}
+#load-more-button {
+  padding: 5px 13px;
+  font-size: 15px;
+  line-height: 2;
+  font-weight: bold;
+  font-family: arial, helvetica, verdana, sans-serif;
 }

@@ -4,10 +4,10 @@ Handlebars.registerHelper('badges', function(context, options) {
   for(var i=0; i<context.length; i++) {
     ret += "<a href='http://buzzfeed.com' class='badge'>" + context[i] + "</a>";
     if (i < context.length - 2){
-      ret += ",";
+      ret += ", ";
     }
     else if (i == context.length - 2){
-      ret += "&";
+      ret += " & ";
     }
   }
 
@@ -15,7 +15,7 @@ Handlebars.registerHelper('badges', function(context, options) {
 });
 
 Handlebars.registerHelper('prettyDate', function(context, options) {
-  var ret = "";
+  var ret = "about ";
   ret += $.timeago(context)
   return ret;
 });
