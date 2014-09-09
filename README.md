@@ -11,7 +11,7 @@
 	* ~~Rendering reaction using template~~
 	* ~~Rendering contribution using template~~
 	* ~~Child contributions (reactions are already counted)~~
-	* Hiding contributions and reactions (toggle class on body)
+	* ~~Hiding contributions and reactions (toggle class on body)~~
 	* ~~Friendly date format~~
 
 ## Objects:

@@ -2,7 +2,6 @@ var nextPageNumber = 1;
 
 $(document).ready(function() {
     var onLoadCommentsSuccess = function(data){
-      console.log(data);
       nextPageNumber = data.paging.next;
       if (!nextPageNumber) $("#load-more-button").hide();
 
@@ -32,7 +31,6 @@ $(document).ready(function() {
         $(".comments-block").append(reactionMarkup);
       }
 
-      // insert into DOM
       $("#load-more-button").prop("disabled", false)
     };
 
@@ -56,12 +54,14 @@ $(document).ready(function() {
     Handlebars.registerPartial("contribution-inner-partial", $("#contribution-inner-partial").html());
     
     $("#load-more-button").on('click', function(){
-      console.log("clicked");
       if ($(this).is(':disabled')) return;
-      console.log("loading")
       loadComments();
     });
-    console.log("?!?!?!")
+
+    $("input[type=checkbox]").on('change', function(eventObject){
+      $('body').toggleClass(eventObject.target.id, eventObject.target.checked);
+    });
+
     loadComments();
 });
 

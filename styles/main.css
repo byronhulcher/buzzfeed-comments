@@ -1,11 +1,33 @@
 body {
   font-family: ProximaNovaRegular, 'helvetica neue', helvetica, arial, sans-serif;
+  margin: 0;
+}
+body .title-block {
+  position: fixed;
+  height: 50px;
+  background: #f5f5f5;
+  width: 100%;
+}
+body .comments-block,
+body .title,
+body .options,
+body .button-block {
   max-width: 625px;
   margin-left: auto;
   margin-right: auto;
 }
-body .title-block {
-  margin-bottom: 20px;
+body .options {
+  margin-top: 5px;
+}
+body .options label[for=hide-reactions] {
+  margin-right: 10px;
+}
+body .comments-block {
+  padding-top: 60px;
+}
+body.hide-reactions .reaction,
+body.hide-contributions .contribution-container {
+  display: none;
 }
 a {
   text-decoration: none;
