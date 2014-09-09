@@ -1,0 +1,86 @@
+body {
+  font-family: ProximaNovaRegular, 'helvetica neue', helvetica, arial, sans-serif;
+}
+body .comments-block {
+  width: 625px;
+}
+body .title-block {
+  margin-bottom: 10px;
+}
+a {
+  text-decoration: none;
+  color: #07e;
+}
+a:hover {
+  color: #ee3322;
+}
+a.article-title {
+  color: #000;
+}
+.added {
+  font-size: 9px;
+  color: #ccc;
+}
+.reaction {
+  font-size: 12px;
+  width: 100%;
+  margin-bottom: 12px;
+}
+.reaction .username {
+  font-weight: bold;
+}
+.reaction .icon {
+  margin-top: -5px;
+}
+.reaction .badges .badge {
+  padding: 2px 4px;
+  font-weight: bold;
+  color: #000;
+  background: #fe0;
+}
+.reaction .badges .badge:hover {
+  color: #FFF;
+  background: #07e;
+}
+.contribution {
+  font-size: 16px;
+  background: #E7E7E7;
+  padding: 10px;
+  margin-bottom: 2px;
+}
+.contribution .user-info {
+  margin-bottom: 10px;
+}
+.contribution .user-info .icon {
+  float: left;
+  margin-right: 5px;
+}
+.contribution .user-info .username {
+  font-size: 13px;
+}
+.contribution .user-info .added {
+  color: #888888;
+}
+.children .contribution {
+  background: #f5f5f5;
+  margin-left: 30px;
+}
+.contribution-container {
+  margin-bottom: 20px;
+}
+.icon {
+  padding-left: 15px;
+  padding-right: 1px;
+}
+.icon.loves {
+  background: url("../assets/love_small.png") center 0px no-repeat;
+}
+.icon.hates {
+  background: url("../assets/hate_small.png") center 0px no-repeat;
+}
+.icon.user {
+  background: url("../assets/user.jpg") center 0px no-repeat;
+  width: 25px;
+  height: 25px;
+  padding: 0;
+}
