@@ -1,11 +1,11 @@
 body {
   font-family: ProximaNovaRegular, 'helvetica neue', helvetica, arial, sans-serif;
-  width: 625px;
+  max-width: 625px;
   margin-left: auto;
   margin-right: auto;
 }
 body .title-block {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 a {
   text-decoration: none;
