@@ -2,7 +2,7 @@
 
 ![screenshot](http://i.imgur.com/UCYWfW4.png)
 
-Coding Assignment for Buzzfeed, instructions as follows:
+##### Coding assignment for [Buzzfeed](://buzzfeed.com), instructions as follows:
 
 Create a standalone static page using the BuzzFeed Comments API (endpoint URL is http://buzzfeed.com/buzzfeed/api/comments). You will display comments for buzz ID 3371338 (post URL ishttp://buzzfeed.com/jimdalrympleii/here-are-the-cities-where-the-rent-really-is-too-damn-high). The project can use jQuery or native JS. You should design a module that can manage service calls and render the comments data. Your project can use whatever templating utility you prefer. Feel free to copy image assets locally, employing strategies for performance optimization. 
 
@@ -15,17 +15,13 @@ Create a standalone static page using the BuzzFeed Comments API (endpoint URL is
 
 
 ## TODO:
-* ~~object for reaction~~
-* ~~object for contribution~~
-* ~~markup for reaction~~
-* ~~markup for contribution~~
-* ~~css for reaction~~
-* ~~css for contribution~~
+* ~~objects for reactions & contributions~~
+* ~~markup & css for reaction~~
+* ~~markup & css for contribution~~
 * ~~AJAX GET buzzfeed data~~
 * ~~Pagination/Load More button~~
 * ~~Combining multiple reactions into single row~~
-* ~~Rendering reaction using template~~
-* ~~Rendering contribution using template~~
+* ~~Rendering reactions & contributions using templates~~
 * ~~Child contributions (reactions are already counted)~~
 * ~~Hiding contributions and reactions (toggle class on body)~~
 * ~~Friendly date format~~
